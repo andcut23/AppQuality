@@ -89,3 +89,24 @@ body {
   margin-left: 20%;
   margin-right: 10%;
 }
+
+.img-big {
+  margin-top: 100px;
+}
+
+.box {
+  border: solid;
+  margin-top: 20px;
+  height: 150px;
+  width: 250px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-container {
+  margin-left: 20px;
+}
