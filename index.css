@@ -1,8 +1,10 @@
-body {margin:0;}
+body {
+  margin:0;
+}
 
 .navbar {
   overflow: hidden;
-  background-color: #f2f2f2;
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,15 +39,15 @@ body {margin:0;}
 
 .main {
   margin-top: 100px;
-  margin-left: 200px;
-  margin-right: 200px; 
+  margin-left: 20%;
+  margin-right: 20%; 
 }
 
 .main-title {
   display: flex;
   flex-direction: column;
-  margin-right: 400px;
-  margin-left: 200px;
+  margin-right: 20%;
+  margin-left: 10%;
 }
 
 .title {
@@ -59,6 +61,31 @@ body {margin:0;}
 
 .img-description {
   font-size: 30px;
-  margin-left: 300px;
-  margin-right: 250px;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.paragraph {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.paragraph-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph-title {
+  font-size: 50px;
+}
+
+.sub-title-paragraph {
+  font-size: 25px;
+}
+
+.img-paragraph {
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 10%;
 }
