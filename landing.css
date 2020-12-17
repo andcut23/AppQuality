@@ -1,6 +1,7 @@
 .title {
     text-transform: uppercase;
     font-size: 60px;
+    font-style: bolder;
 }
 
 .sub-title {
@@ -11,3 +12,17 @@
       font-weight: bold;
       font-size: 25px;
   }
+
+  .sub-title-paragraph {
+    font-size: 20px;
+  }
+
+  .box {
+    border: solid;
+    border-color: lightgray;
+    margin-top: 20px;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+  }
+  
