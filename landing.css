@@ -5,7 +5,7 @@
 }
 
 .distance-top {
-  margin-top: 150px;
+  margin-top: 180px;
 }
 
 .sub-title {
@@ -15,6 +15,10 @@
   .img-description {
       font-weight: bold;
       font-size: 25px;
+  }
+
+  .paragraph-title {
+    font-size: 50px;
   }
 
   .sub-title-paragraph {
@@ -28,3 +32,7 @@
     padding: 10px;
   }
   
+  .underline {
+    text-decoration: underline;
+    font-size: 60px;
+  }
