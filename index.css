@@ -32,10 +32,15 @@
     padding: 10px;
   }
   
-  .underline {
+  .underline-big {
     text-decoration: underline;
     font-size: 60px;
   }
+
+  .underline-small {
+    text-decoration: underline;
+/*     font-size: 60px;
+ */  }
 
   .padding-dark {
     padding: 150px;
