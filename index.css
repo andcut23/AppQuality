@@ -27,10 +27,19 @@
 
   .box {
     border: solid;
+    border-radius: 20px;
     border-color: lightgray;
     margin-top: 20px;
     padding: 10px;
   }
+
+  .box-color {
+    border: solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
   
   .underline-big {
     text-decoration: underline;
