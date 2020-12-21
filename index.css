@@ -36,3 +36,13 @@
     text-decoration: underline;
     font-size: 60px;
   }
+
+  .padding-dark {
+    padding: 150px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .padding-dark {
+      padding: 20px;
+    }
+  }
