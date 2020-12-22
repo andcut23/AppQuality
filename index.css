@@ -4,6 +4,14 @@
     font-style: bolder;
 }
 
+.nav-items {
+  margin: 0px;
+}
+
+.button-header {
+  border-radius: 25px;
+}
+
 .distance-top {
   margin-top: 180px;
 }
@@ -33,11 +41,8 @@
     padding: 10px;
   }
 
-  .box-color {
-    border: solid;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 10px;
+  .box.box-green {
+    border-color: green;
   }
   
   
