@@ -18,50 +18,53 @@
 
 .sub-title {
     font-size: 30px;
-  }
+}
 
-  .img-description {
-      font-weight: bold;
-      font-size: 25px;
-  }
+.img-description {
+    font-weight: bold;
+    font-size: 25px;
+}
 
-  .paragraph-title {
-    font-size: 50px;
-  }
+.paragraph-title {
+  font-size: 50px;
+}
 
-  .sub-title-paragraph {
-    font-size: 20px;
-  }
+.sub-title-paragraph {
+  font-size: 20px;
+}
 
-  .box {
-    border: solid;
-    border-radius: 20px;
-    border-color: lightgray;
-    margin-top: 20px;
-    padding: 10px;
-  }
+.box {
+  border: solid;
+  border-radius: 20px;
+  border-color: lightgray;
+  margin-top: 20px;
+  padding: 10px;
+}
 
-  .box.box-green {
-    border-color: green;
-  }
-  
-  
-  .underline-big {
-    text-decoration: underline;
-    font-size: 60px;
-  }
+.box.box-green {
+  border-color: green;
+}
 
-  .underline-small {
-    text-decoration: underline;
-/*     font-size: 60px;
- */  }
+.box.box-dark {
+  border-color: black;
+}
 
+
+.underline-big {
+  text-decoration: underline;
+  font-size: 60px;
+}
+
+.underline-small {
+  text-decoration: underline;
+}
+
+.padding-dark {
+  padding: 150px;
+}
+
+@media only screen and (max-width: 600px) {
   .padding-dark {
-    padding: 150px;
+    padding: 20px;
   }
-
-  @media only screen and (max-width: 600px) {
-    .padding-dark {
-      padding: 20px;
-    }
-  }
+}
