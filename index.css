@@ -1,7 +1,42 @@
+@font-face {
+  font-family: proximaNova;
+  src: url('./fonts/ProximaNova-Regular.otf');
+}
+
+@font-face {
+  font-family: proximaNova-Bold;
+  src: url('./fonts/Proxima\ Nova\ Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: proximaNova-Extra;
+  src: url('./fonts/Proxima\ Nova\ Extrabold.otf');
+  font-weight: bolder;
+}
+
+
+@font-face {
+  font-family: lato;
+  src: url('./fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: lato-Bold;
+  src: url('./fonts/Lato-Bold.ttf');
+  font-weight: bold;
+}
+
+body {
+  font-family: proximaNova;
+}
+
 .title {
+  font-family: proximaNova-Extra;
     text-transform: uppercase;
-    font-size: 60px;
-    font-style: bolder;
+    font-size: 57px;
+    line-height: 1.14;
+    color: #1e1e1e;
 }
 
 .nav-items {
@@ -13,24 +48,43 @@
 }
 
 .distance-top {
-  margin-top: 180px;
+  margin-top: 200px;
 }
 
 .sub-title {
-    font-size: 30px;
+    font-family: lato;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #1e1e1e;
+}
+
+.chapter {
+  font-family: proximaNova-Bold;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #0059ff;
 }
 
 .img-description {
+  font-family: proximaNova-Bold;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 40px;
+    color: #1e1e1e;
+    line-height: 1.13;
 }
 
 .paragraph-title {
-  font-size: 50px;
+  font-family: proximaNova-Bold;
+  font-size: 40px;
+  color: #1e1e1e;
 }
 
-.sub-title-paragraph {
+.sub-paragraph {
+  font-family: lato;
   font-size: 20px;
+  color: #1e1e1e;
 }
 
 .box {
@@ -42,25 +96,38 @@
 }
 
 .box.box-green {
-  border-color: green;
+  border-color: #44ae3f;
+  background-color: #44ae3f;
 }
 
 .box.box-dark {
-  border-color: black;
+ background-color: #1e1e1e;
+ border-color: #1e1e1e;
 }
 
-
 .underline-big {
+  font-family: proximaNova-Bold;
   text-decoration: underline;
-  font-size: 60px;
+  font-size: 90px;
+  line-height: 1;
+  color: #0059ff;
 }
 
 .underline-small {
   text-decoration: underline;
+  font-family: proximaNova-Bold;
+  font-size: 40px;
+}
+
+.footer-text {
+  font-family: lato;
+  font-size: 20px;
 }
 
 .padding-dark {
-  padding: 150px;
+  padding-top: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 @media only screen and (max-width: 600px) {
