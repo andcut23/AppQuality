@@ -88,11 +88,28 @@ body {
 }
 
 .box {
-  border: solid;
+  width: 252px;
+  height: 150px;
+  padding: 24px 7px 20px 24px;
   border-radius: 20px;
-  border-color: lightgray;
-  margin-top: 20px;
-  padding: 10px;
+  border: solid 2px #cccccc;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.box-title {
+  font-family: proximaNova-Bold;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 3px;
+  color: #1e1e1e;
+}
+
+.box-paragraph {
+  font-family: lato;
+  font-size: 20px;
+  color: #1e1e1e;
+  line-height: 1.15;
 }
 
 .box.box-green {
