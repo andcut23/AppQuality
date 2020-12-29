@@ -87,6 +87,10 @@ body {
   color: #1e1e1e;
 }
 
+.move-right {
+  float: right;
+}
+
 .box {
   width: 252px;
   height: 150px;
