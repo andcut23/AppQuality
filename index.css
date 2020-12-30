@@ -87,8 +87,39 @@ body {
   color: #1e1e1e;
 }
 
+.image-right {
+  right: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
+.box-container {
+  position: relative;
+}
+
+.little-box {
+  top: 40px;
+  left: 0px;
+  position: absolute;
+  z-index: 10;
+}
+
+.little-box.phase1-1 {
+  top: 186px;
+}
+
+.little-box.phase1-2 {
+  top: 332px;
+}
+
+.little-box.phase2 {
+  left: none;
+  right: 0px;
+}
+
 .move-right {
   float: right;
+  padding-right: 0px;
 }
 
 .box {
